@@ -26,10 +26,10 @@ let faveColors = ['red', 'green', 'blue']
 let me = {
     firstName: 'Derek',
     superHeroName: 'Derek',
-    homeTown:'Derekville',
+    homeTown:'Jeordinville',
     superPowers: 'super annoying',
     superPowerXP: Math.floor(Math.random() * 100) + 1,
-    profileImage: 
+    profileImage: document.write()
 }
 
 //////////////////Step 3////////////////////
