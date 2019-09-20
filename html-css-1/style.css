@@ -1,0 +1,72 @@
+header {
+    width: 97vw;
+    height: 7vh;
+    background-color: darkgrey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company {
+    font-size: 40px;
+    padding: 0px 0px 0px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 30px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.more {
+    width: 97vw;
+    height: 300px;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.white-box1{
+    width: 97vw;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.green{
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    background-color: aquamarine;
+}
+.white-box2{
+    width: 97vw;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.orange{
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+
+}
+.white-box3 {
+    width: 97vw;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.text{
+    width: 300px;
+    height: 200px;
+
+}
