@@ -29,7 +29,7 @@ let me = {
     homeTown:'Jeordinville',
     superPowers: 'super annoying',
     superPowerXP: Math.floor(Math.random() * 100) + 1,
-    profileImage: document.write()
+    profileImage: document.write("<img scr='https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg; alt='alt tag' border=0>")
 }
 
 //////////////////Step 3////////////////////
@@ -47,7 +47,7 @@ var homeTown = me.homeTown;
 
 // CODE HERE
 function setColor(arr){
-    arr = faveColors.splice(0,3);
+   var arr = faveColors.splice(0,3);
     for(let key in arr){
         if(faveColors[key] === 'blue'){
             faveColors[key] = '#4D4DFF';
@@ -61,9 +61,7 @@ function setColor(arr){
 // CODE HERE
 function setPowers(arr){
     for(let key in arr){
-        function createLi(){
-
-        }
+        function createLi(){ }
     }
 }
 
